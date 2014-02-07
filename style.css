@@ -1,0 +1,47 @@
+body {
+  background: rgb(255, 251, 0);
+}
+
+/* Use a dot to target a class */
+.content {
+  width: 75%;
+  padding: 3%;
+  background: rgba(255,255,257,1);
+  margin: 34px auto;
+  box-shadow: 0px 0px 1px rgba(100,100,100,.4);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 2em;
+}
+
+/* Use a hash to target by id */
+p#message {
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px
+}
+
+@media (max-width: 480px) {
+  /* Styles for mobile */
+  body {
+    background: rgba(255,255,0,.2);
+  }
+  .content {
+    width: 90%;
+  }
+} /* End of the mobile styles section */
